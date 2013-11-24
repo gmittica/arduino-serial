@@ -1,0 +1,25 @@
+{
+    "name": "gabrielemittica/arduino-serial",
+    "description": "PHP app to work with arduino (over serial port)",
+    "version":"0.0.1",
+    "type":"library",
+    "keywords":["arduino", "php", "serial"],
+    "license":"MIT",
+    "authors": [
+        {
+            "name":"Gabriele Mittica",
+            "email":"gabriele.mittica@gmail.com",
+            "homepage":"http://www.gabrielemittica.com",
+            "role":"Developer"
+        }
+    ],
+    "support": {
+        "email":"gabriele.mittica@gmail.com"
+    },
+    "require": {
+        "php": ">=5.3.4"
+    },
+    "autoload": {
+        "psr-0": {"Arduino": "src/"}
+    }
+}
